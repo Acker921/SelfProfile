@@ -2,8 +2,9 @@
     <div class="nav">
         <div class="navbar">
             <div class="logo">
-                <img src="../assets/logo.png" alt="" height="30px">
+                <img src="../assets/logo.png" alt="" height="32px">
             </div>
+            <p class="title"><strong>Acker's</strong> Profile</p>
             <ul class="navlist">
                 <li>主页</li>
                 <li>博客</li>
@@ -22,9 +23,11 @@ export default {
 <style scoped>
     .nav {
         height: 3rem;
-        max-width: 70%;
-        width: 70vw;
         margin: 0 auto;
+        padding: 0 1rem;
+        width: 100%;
+        z-index: 999999;
+        position: fixed;
         border: 1px solid #fff;
         border-bottom: 1px solid #ddd;
         background: #fff;
@@ -48,6 +51,21 @@ export default {
     .logo {
         float: left;
         margin: 0.5rem 0;
+        display: inline-block;
+    }
+    .title {
+        display: inline-block;
+        padding: 0.75rem 1rem;
+        float: left;
+        color: #333;
+        font-size: 1rem;
+        font-weight: 300;
+        z-index: 999;
+        line-height: 1.2;
+    }
+    .title strong {
+        font-weight: 700;
+        font-style: normal;
     }
     .navlist {
         float: right;

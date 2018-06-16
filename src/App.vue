@@ -3,6 +3,7 @@
     <NavBar/>
     <ProfileHeader/>
     <Content/>
+    <About/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@ import './assets/reset.css'
 import NavBar from './components/NavBar.vue'
 import ProfileHeader from './components/ProfileHeader.vue'
 import Content from './components/Content.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'app',
   components: {
     NavBar,
     ProfileHeader,
-    Content
+    Content,
+    About
   }
 }
 </script>

@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="http://s.anw.red/iconmoon-2017/images/pre-bg.jpg" alt="" class="image">
+                <img src="../assets/Dev.jpg" alt="" class="image">
             </div>
         </article>
     </div>
@@ -38,7 +38,7 @@ export default {
         margin: 0 auto;
     }
     .inneritem {
-        background: #ece9e9;
+        background: rgb(208, 211, 218);
         height: 50em;
         margin: 1rem 1rem 0;
         border-radius: .6rem;
