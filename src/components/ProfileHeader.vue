@@ -1,11 +1,11 @@
 <template>
     <div class="header">
         <section class="headline">你好，我是 Acker</section>
-        <section class="subheadline">我是一名留学生</section>
+        <section class="subheadline">现居住于欧洲</section>
         <section class="headline">我是一名全栈工程师</section>
-        <section class="subheadline">目前干外包行业</section>
+        <section class="subheadline">目前从事于外包行业</section>
         <section class="headline">属于 Nextdev 团队</section>
-        <section class="subheadline">一个属于年轻人的团队</section>
+        <section class="subheadline">一个由青年构成的团队</section>
     </div>
 </template>
 

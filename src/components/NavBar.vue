@@ -6,9 +6,9 @@
             </div>
             <p class="title"><strong>Acker's</strong> Profile</p>
             <ul class="navlist">
-                <li>主页</li>
-                <li>博客</li>
-                <li>关于</li>
+                <li><a href="/">主页</a></li>
+                <li><a href="/">博客</a></li>
+                <li><a href="#about">关于</a></li>
             </ul>
         </div>
     </div>
@@ -26,6 +26,7 @@ export default {
         margin: 0 auto;
         padding: 0 1rem;
         width: 100%;
+        max-width: 100vw;
         z-index: 999999;
         position: fixed;
         border: 1px solid #fff;
@@ -76,5 +77,9 @@ export default {
         display: inline-block;
         padding: 1rem 0.5rem;
         font-size: 0.75rem
+    }
+    .navlist li a {
+        text-decoration: none;
+        color: #333
     }
 </style>
