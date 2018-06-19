@@ -13,6 +13,7 @@ import NavBar from './components/NavBar.vue'
 import ProfileHeader from './components/ProfileHeader.vue'
 import Content from './components/Content.vue'
 import About from './components/About.vue'
+import './assets/mediaquery.css'
 
 export default {
   name: 'app',

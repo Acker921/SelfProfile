@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+    .image1,.image2 {
+      display: block;
+      position: absolute
+    }
+    .item {
+        display: block;
+        height: auto;
+    }
+    .image1[data-v-37ee3a21] {
+        display: block;
+        position: static;
+        width: 70%;
+        margin: 4rem auto;
+    }
+    .inneritem1[data-v-37ee3a21] {
+        height: auto;
+    }
+    .main-item[data-v-37ee3a21] {
+        padding-top: 4rem;
+    }
+    .image2[data-v-37ee3a21] {
+        display: block;
+        position: static;
+        width: 70%;
+        margin: 4rem auto;
+    }
+    .inneritem2[data-v-37ee3a21] {
+        height: auto;
+    }
+    .about1[data-v-b361b996] {
+        padding-top: 4rem;
+    }
+    .item-text[data-v-b361b996] {
+        float: none;
+    }
+    .item-desc[data-v-b361b996] {
+        float: none
+    }
+    .about2[data-v-b361b996] {
+        padding-bottom: 1rem;
+    }
+  }

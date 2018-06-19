@@ -79,7 +79,7 @@ export default {
         margin: 0 0 0.5rem;
         color: #333;
         font-size: 1.25rem;
-        font-weight: 100;
+        font-weight: 200;
         z-index: 999;
         padding: 0 .5em 0 0;
         line-height: 1.2;
